@@ -1,2 +1,2 @@
 ### **Depth First Search**
-*DFS* - 
+*DFS* - Similar to BFS, except uses an edge based technique and is mainly for generating mazes and puzzles. 
