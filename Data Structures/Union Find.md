@@ -3,7 +3,8 @@
 
 *Union Find Algorithm* - Finds which subset an element is in. Also joins two subsets together (or connected componenets). 
 
-
 Applications: 
-- Useful for seeing if two nodes are in the same connected component
-- Also for Joining two connected componenets. 
+Useful for seeing if two nodes are in the same connected component. Also for Joining two connected componenets. 
+
+Time Complexity: **O(log n)** or inverse ackermann function. Basically really small. 
+
