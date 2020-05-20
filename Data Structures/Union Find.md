@@ -6,5 +6,7 @@
 Applications: 
 Useful for seeing if two nodes are in the same connected component. Also for Joining two connected componenets. 
 
-Time Complexity: **O(log n)** or inverse ackermann function. Basically really small. 
+Time Complexity: **O(log n)** actually it is **O(a(m))** where a(m) is the inverse ackermann function
+
+
 
