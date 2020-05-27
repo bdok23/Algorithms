@@ -1,12 +1,12 @@
-#include <fstream.h>
+#include \<fstream>
   
-#include <iostream>
+#include \<iostream>
   
-#include <vector>
+#include \<vector>
   
 using namespace std;
 
-vector <int> parent;
+vector \<int> parent;
 
 
 //Finds root of node x
