@@ -9,3 +9,9 @@ An MST has V-1 edges, where the original graph has V vertices.
 MST is useful for network design, approximation for NP problems, cluster analysis, ...
 
 *Kruskal's Algorithm* - Finds an MST. 
+
+1. Sort all the edges in non-decreasing order of their weight.
+2. Pick the smallest edge. Check if it forms a cycle with the spanning tree formed so far. If cycle is not formed, include this edge. Else, discard it.
+3. Repeat step#2 until there are (V-1) edges in the spanning tree.
+
+Use union-find to detect a cycle. 
