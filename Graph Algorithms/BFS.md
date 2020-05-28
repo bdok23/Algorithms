@@ -26,7 +26,7 @@ Implementation:
             int p = q.front();
             q.pop();
             for(int i = 0;i < v[ p ].size() ; i++)
-            {
+            { 
                 if(vis[ v[ p ][ i ] ] == false)
                 {
             //Setting the level of each node with an increment in the level of parent node
