@@ -194,5 +194,5 @@ int main()
     KruskalMST(graph);  
   
     return 0;  
-}
+} 
 ```
