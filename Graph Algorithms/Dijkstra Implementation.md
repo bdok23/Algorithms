@@ -60,7 +60,7 @@ void dijkstra(int graph[V][V], int src)
         int u = minDistance(dist, sptSet); 
   
         // Mark the picked vertex as processed 
-        sptSet[u] = true; 
+        sptSet[u] = true;  
   
         // Update dist value of the adjacent vertices of the picked vertex. 
         for (int v = 0; v < V; v++) 
