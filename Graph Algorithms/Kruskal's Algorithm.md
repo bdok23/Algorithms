@@ -15,3 +15,5 @@ MST is useful for network design, approximation for NP problems, cluster analysi
 3. Repeat step#2 until there are (V-1) edges in the spanning tree.
 
 Use union-find to detect a cycle. 
+
+Time Complexity: **O(E * log E)** or **O(E * log V)**
