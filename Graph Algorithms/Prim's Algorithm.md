@@ -16,4 +16,4 @@ first).
   - Update the key value of all adjacent vertices of u (not in mst) with the weights. To update, iterate through all the vertices. 
   Also if there is already a key value, then update only if it is less than that key value. 
   
-  Prim's is better if their is a higher vert
+Time Complexity: **O(V^2)** or **O(E * log V)** (with binary heap)
